@@ -1,3 +1,0 @@
-﻿  Heap.cpp
-D:\Programming\Visual Studio\TopK\TopK\Heap.cpp(11,23): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-  TopK.vcxproj -> D:\Programming\Visual Studio\TopK\TopK\x64\Debug\TopK.exe

@@ -1,2 +1,0 @@
-D:\实验\shiyan4\x64\Debug\shiyan4.exe
-D:\Programming\shiyan4\x64\Debug\shiyan4.exe

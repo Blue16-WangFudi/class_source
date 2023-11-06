@@ -1,6 +1,0 @@
-﻿  Heap.cpp
-  myHeap.cpp
-D:\Programming\Visual Studio\Heap\Heap\myHeap.cpp(59,22): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-D:\Programming\Visual Studio\Heap\Heap\myHeap.cpp(74,18): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
-  正在生成代码...
-  Heap.vcxproj -> D:\Programming\Visual Studio\Heap\Heap\x64\Debug\Heap.exe

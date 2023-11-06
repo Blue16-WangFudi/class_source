@@ -1,0 +1,16 @@
+﻿  Graph.cpp
+  Graph_List.cpp
+  Graph_Matrix.cpp
+D:\Programming\Visual Studio\Graph\Graph\Graph_Matrix.cpp(152,17): warning C4244: “=”: 从“float”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+D:\Programming\Visual Studio\Graph\Graph\Graph_Matrix.cpp(153,17): warning C4244: “=”: 从“float”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+D:\Programming\Visual Studio\Graph\Graph\Graph_Matrix.cpp(176,22): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  Graph.vcxproj -> D:\Programming\Visual Studio\Graph\Graph\x64\Debug\Graph.exe

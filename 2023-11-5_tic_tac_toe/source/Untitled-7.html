@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>井字棋</title>
+    <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
+<style type="text/css">
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 微软雅黑;
+}
+html,body{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 96%;
+    background-position: fixed;
+}
+
+h1{
+    text-align: center;
+    color: indianred;
+    font-size: 3em;
+    margin-top: 3%;
+}
+.main{
+    width: 486px;
+    height: 486px;
+    margin: auto;
+    margin-top: 3%;
+    background-color: white;
+    text-align: center;
+    z-index: 5;
+}
+
+.tic{
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    font-size: 1em;
+    -webkit-text-size-adjust:100%;
+    border:1px solid #cb4042;
+    cursor: pointer;
+    float: left;
+    color: #000;
+    position: relative;
+}
+.tic-span{
+    font-size: 3em;
+    color: #cb4042;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.back{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .5;
+    z-index: 20;
+}
+
+.choose{
+    z-index: 21;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 700px;
+    color: orangered;
+    background-color: mediumaquamarine;
+    border-radius: 10px;
+    outline: none;
+    display: none;
+}
+
+.choose-title{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.choose-bt{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.choose-bt button{
+    font-family: sans-serif;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+    text-align: center;
+    background:#eee;
+    border:1px solid #cb4042;
+    border-radius: 50%;
+    outline: none;
+    color: #cb4042;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.choose-bt button:hover{
+    background-color: #fff;
+}
+
+.loser{
+    position: absolute;
+    top: 0;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    font-size: 15em;
+    z-index: 1;
+    color: red;
+    display: none;
+}
+</style>
+</head>
+<body>
+<div id="back" class="back"></div>
+<div id="choose" class="choose">
+        <div class="choose-title">
+            <h2>井字棋</h2><br>
+            <hr>
+			<br>
+            <h2>请选择你想要使用的符号</h2>
+        </div>
+	
+        <div class="choose-bt">
+            <button id="cha">×</button>
+            <button id="O">o</button>
+        </div>
+</div>
+<script type="text/javascript" src="1.js" defer></script>
+<h1>井字棋</h1>
+    <div class="main">
+            <div id="tic-1" class="tic">
+                <span id="span-1" class="tic-span"></span>
+            </div>
+            <div id="tic-2" class="tic">
+                <span id="span-2" class="tic-span"></span>
+            </div>
+            <div id="tic-3" class="tic">
+                <span id="span-3" class="tic-span"></span>
+            </div>
+            <div id="tic-4" class="tic">
+                <span id="span-4" class="tic-span"></span>
+            </div>
+            <div id="tic-5" class="tic">
+                <span id="span-5" class="tic-span"></span>
+            </div>
+            <div id="tic-6" class="tic">
+                <span id="span-6" class="tic-span"></span>
+            </div>
+            <div id="tic-7" class="tic">
+                <span id="span-7" class="tic-span"></span>
+            </div>
+            <div id="tic-8" class="tic">
+                <span id="span-8" class="tic-span"></span>
+            </div>
+            <div id="tic-9" class="tic">
+                <span id="span-9" class="tic-span"></span>
+            </div>  
+    </div>
+    <div class="loser">
+        井字棋
+    </div>
+</body>
+</html>

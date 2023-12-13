@@ -1,0 +1,78 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: sneak sneaker, www.123.com, LIC=GMZI6-DUSTX-UH38H-W3T3W-BYKSY-T4VV6
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.18
+Toolchain Path:  D:\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+D:\Research materials\STM32_MDK_CubeMX\C8T6\HC-SR04-BEEP\MDK-ARM\HC-SR04-BEEP.uvprojx
+Project File Date:  07/05/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\MDK5\ARM\ARMCC\Bin'
+Build target 'HC-SR04-BEEP'
+compiling main.c...
+..\HARDWARE\hc-sr04.h(39): warning:  #1295-D: Deprecated declaration Hcsr04Start - give arg types
+  void Hcsr04Start();
+..\HARDWARE\hc-sr04.h(60): warning:  #1295-D: Deprecated declaration Hcsr04Read - give arg types
+  float Hcsr04Read();
+..\HARDWARE\hc-sr04.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif /* HCSR04_H_ */
+..\HARDWARE\DHT11.h(54): warning:  #1295-D: Deprecated declaration data_compensate - give arg types
+  float data_compensate();
+..\HARDWARE\BEEP.h(6): warning:  #1295-D: Deprecated declaration alarm - give arg types
+  void alarm();
+..\HARDWARE\BEEP.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/main.c: 6 warnings, 0 errors
+compiling DHT11.c...
+..\HARDWARE\dht11.h(54): warning:  #1295-D: Deprecated declaration data_compensate - give arg types
+  float data_compensate();
+..\HARDWARE\hc-sr04.h(39): warning:  #1295-D: Deprecated declaration Hcsr04Start - give arg types
+  void Hcsr04Start();
+..\HARDWARE\hc-sr04.h(60): warning:  #1295-D: Deprecated declaration Hcsr04Read - give arg types
+  float Hcsr04Read();
+..\HARDWARE\hc-sr04.h(63): warning:  #1-D: last line of file ends without a newline
+  #endif /* HCSR04_H_ */
+..\HARDWARE\DHT11.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=12810 RO-data=2434 RW-data=464 ZI-data=1904  
+FromELF: creating hex file...
+"HC-SR04-BEEP\HC-SR04-BEEP.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\Research materials\STM32_MDK_CubeMX\C8T6\HC-SR04-BEEP\MDK-ARM\RTE
+  D:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
